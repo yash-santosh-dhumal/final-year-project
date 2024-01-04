@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('https://comprenew.org/wp-content/uploads/2022/02/Refurbished-Key-to-Sustainable-Tech.png');
+}
+.header{
+    /* background-color: black; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.header h2{
+    font-size: 1.3em;
+    letter-spacing: -10;
+    color: white;
+    text-decoration: none;
+    font-style: none;
+}
+.header h2 a{
+    font-size: 1.1em;
+    letter-spacing: -10;
+    color: white;
+    text-decoration: none;
+    font-style: none;
+}
+.nav-search {
+    margin-left: 5px;
+    background-color: #f8ad51;
+    display: flex;
+    width: 530px;
+    height: 40px;
+    border-radius: 3px;
+}
+.search-input {
+    border: none;
+    border-radius: 0;
+    width: 673px;
+}
+.items{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.boxE {
+    width: 23%;
+    background-color: white;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.boxF {
+    width: 23%;
+    background-color: white;
+    margin-top: 20px;
+    height: 400px;
+}
+
+
+.boxG {
+    width: 23%;
+    margin-top: 20px;
+    background-color: white;
+    height: 400px;
+}
+
+.boxH {
+    width: 23%;
+    background-color: white;
+    margin-top: 20px;
+    height: 400px;
+}
+.boxD1-text {
+    font-weight: bold;
+    padding-top: 18px;
+    padding-left: 22px;
+}
+
+.boxD1-button {
+    margin-top: 15px;
+}
+
+.boxD1 button {
+    cursor: pointer;
+    background-color: #fad310;
+    border: none;
+    border-radius: 8px;
+    width: 250px;
+    height: 30px;
+}
+
+.boxD1 button:hover {
+    background-color: #d1ae00;
+}
+
+.boxE-text {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.boxE-image {
+    background-image: url('https://s3no.cashify.in/cashify/product/img/xxhdpi/5e3f3019-89e6.jpg?p=es5sq&s=es');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 270.4px;
+    height: 260px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.boxE-link {
+    padding-top: 15px;
+    cursor: pointer;
+    margin-top: 22px;
+    margin-left: 22px;
+    color: rgb(134, 195, 134);
+    font-size: 16px;
+}
+
+.boxE-link:hover {
+    color: rgb(201, 123, 7);
+}
+
+.boxF-text {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.boxF-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 278.4px;
+    height: 270px;
+    margin-left: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.boxF1 {
+    background-image: url('https://mobilegoo.shop/cdn/shop/products/229_1.webp?v=1669058165&width=600');
+    background-size: cover;
+    background-color: white;
+    width: 130px;
+    height: 100px;
+}
+
+.boxF1-text {
+    margin-left: 4px;
+    margin-top: 105px;
+    color: black;
+    font-size: 12px;
+}
+
+.boxF2 {
+    background-image: url('https://mobilegoo.shop/cdn/shop/files/Untitleddesign-2023-12-08T115426.377.png?v=1702016671&width=713');
+    background-size: cover;
+    background-color: white;
+    width: 142px;
+    height: 100px;
+}
+
+.boxF2-text {
+    margin-left: 4px;
+    margin-top: 105px;
+    color: black;
+    font-size: 12px;
+}
+
+.boxF3 {
+    margin-top: 28px;
+    background-image: url('https://mobilegoo.shop/cdn/shop/files/Untitleddesign-2023-12-06T185526.824.png?v=1701869135&width=713');
+    background-size: cover;
+    background-color: white;
+    width: 130px;
+    height: 100px;
+}
+
+.boxF3-text {
+    margin-left: 4px;
+    margin-top: 105px;
+    color: black;
+    font-size: 12px;
+}
+
+.boxF4 {
+    position: relative;
+    margin-top: 28px;
+    background-image: url('https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ34ju5ehkRvP-pdVYG2ARsQ12scZE1TBfSAz1emtFqV-R3q_8IXVjG5KELe9d-P72rap5i_RK9P0tG2dFHE1tIQb3u0B2x4iURwrJhXSveGJtjfHSz_yY0&usqp=CAE  ');
+    background-size: cover;
+    object-fit: cover;
+    background-color: white;
+    width: 142px;
+    height: 100px;
+    background-position: center;
+}
+
+.boxF4-text {
+    margin-left: 4px;
+    margin-top: 105px;
+    color: black;
+    font-size: 12px;
+}
+
+.boxF-link {
+    padding-top: 15px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 22px;
+    color: rgb(134, 195, 134);
+    font-size: 16px;
+}
+
+.boxF-link:hover {
+    color: rgb(201, 123, 7);
+}
+
+.boxG-text {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.boxG-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 278.4px;
+    height: 270px;
+    margin-left: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.boxG1 {
+    background-image: url('https://www.ifbappliances.com/media/opti_image/webp/catalog/product/cache/f6d60de4095a6e5204f81c04aa5b766f/t/l/tl_res_7kg_lv.webp');
+    background-size: cover;
+    background-color: white;
+    width: 130px;
+    height: 100px;
+}
+
+.boxG1-text {
+    margin-left: 4px;
+    margin-top: 105px;
+    color: black;
+    font-size: 12px;
+}
+
+.boxG2 {
+    background-image: url('https://newjaisa.com/cdn/shop/products/1_221ef243-ec51-4531-b3f4-966fbf5e01f5_1000x1000.jpg?v=1677616122');
+    background-size: cover;
+    background-color: white;
+    width: 142px;
+    height: 100px;
+}
+
+.boxG2-text {
+    margin-left: 4px;
+    margin-top: 105px;
+    color: black;
+    font-size: 12px;
+}
+
+.boxG3 {
+    margin-top: 18px;
+    background-image: url('https://newjaisa.com/cdn/shop/files/1_9a481a74-b8ae-4b90-a316-10187c16e0bd_1000x1000.jpg?v=1691258158');
+    background-size: cover;
+    background-color: white;
+    width: 130px;
+    height: 100px;
+}
+
+.boxG3-text {
+    margin-left: 4px;
+    margin-top: 105px;
+    color: black;
+    font-size: 12px;
+}
+
+.boxG4 {
+    margin-top: 18px;
+    background-image: url('https://www.electronicsbazaar.com/media/catalog/product/cache/fa77d75c1312b9ab17a971266464d579/q/c/qcnbag03300_1.jpg');
+    background-size: cover;
+    background-color: white;
+    width: 142px;
+    height: 100px;
+}
+
+.boxG4-text {
+    margin-left: 4px;
+    margin-top: 105px;
+    color: black;
+    font-size: 12px;
+}
+
+.boxG-link {
+    padding-top: 15px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 22px;
+    color: rgb(134, 195, 134);
+    font-size: 16px;
+}
+
+.boxG-link:hover {
+    color: rgb(201, 123, 7);
+}
+
+.boxH-text {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.boxH-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 278.4px;
+    height: 270px;
+    margin-left: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.boxH1 {
+    background-image: url('https://www.headphonezone.in/cdn/shop/products/Headphone-Zone-Vision-Ears-VE3.2-DM-01.jpg?v=1679307777&width=800');
+    background-size: cover;
+    background-color: white;
+    width: 130px;
+    height: 100px;
+}
+
+.boxH1-text {
+    margin-left: 4px;
+    margin-top: 105px;
+    color: black;
+    font-size: 12px;
+}
+
+.boxH2 {
+    background-image: url('https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTsiD5o4sEmA7dPivv4s39ZlmHgPbmeJeoWBzvSf2kZmU9fufU4RRIvfZzW9kx1F-u5pAxUH4F4Mwj5XQZung4xm4I3vtCwt7OoAKinbDwv90cWg_yNiP17&usqp=CAE');
+    background-size: cover;
+    background-color: white;
+    width: 142px;
+    height: 100px;
+}
+
+.boxH2-text {
+    margin-left: 4px;
+    margin-top: 105px;
+    color: black;
+    font-size: 12px;
+}
+
+.boxH3 {
+    margin-top: 18px;
+    background-image: url('https://cdn.shopclues.com/images1/thumbnails/104955/640/1/148961816-104955493-1685352775.jpg');
+    background-size: cover;
+    background-color: white;
+    width: 130px;
+    height: 100px;
+}
+
+.boxH3-text {
+    margin-left: 4px;
+    margin-top: 105px;
+    color: black;
+    font-size: 12px;
+}
+
+.boxH4 {
+    margin-top: 18px;
+    background-image: url('https://newjaisa.com/cdn/shop/files/1_5127e508-4ff0-4814-a16e-4e418632b58e_1000x1000.jpg?v=1700031148');
+    background-size: cover;
+    background-color: white;
+    width: 142px;
+    height: 100px;
+}
+
+.boxH4-text {
+    margin-left: 4px;
+    margin-top: 105px;
+    color: black;
+    font-size: 12px;
+}
+
+.boxH-link {
+    padding-top: 15px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 22px;
+    color: rgb(134, 195, 134);
+    font-size: 16px;
+}
+
+.boxH-link:hover {
+    color: rgb(201, 123, 7);
+}
+
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 73px;
+}
